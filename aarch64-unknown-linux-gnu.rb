@@ -5,7 +5,7 @@ class Aarch64UnknownLinuxGnu < Formula
   version "8.3.0"
 
   url "https://github.com/caldog20/homebrew-caldog20/releases/download/v1.0.0/aarch64-unknown-linux-gnu.tar.gz"
-  sha256 "bb24b4deaae63a61deb1d3eac02f24f4e226f507ee25e4cdefa467d7db6c10ec"
+  sha256 "141be9cd9cf1796463bf2102f0898db374b1b7339deefe870ed4d1edc7919d92"
 
   def install
     (prefix/"toolchain").install Dir["./*"]
